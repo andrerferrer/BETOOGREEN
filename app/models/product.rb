@@ -3,7 +3,15 @@ class Product < ApplicationRecord
   belongs_to :user
   has_many :listings
   has_many :reviews
+  has_many :purchases, through: :listings
 
+  scope :top_sellers_by_quantity, ->(user) { 
+    where(user: user)
+      .joins(:listings)
+      .joins(:purchases)
+      .group(:id)
+      .order('sum(purchases.quantity) desc') 
+  }
 
 # can be refactored with a #reduce or AR
   def total_sellings_quantity
@@ -24,3 +32,5 @@ class Product < ApplicationRecord
 
 
 end
+
+# Product.all.map { |p| { id: p.id, value: p.total_sellings_value } }.reject { |h| h[:value].zero? }.sort_by { |h| h[:value] }.reverse

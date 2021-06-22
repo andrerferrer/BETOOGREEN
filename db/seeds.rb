@@ -31,9 +31,9 @@ utensil_set = Product.create!(
   origin: 'England'
   )
 
-utensil_set_image_1 = URI.open('https://images-na.ssl-images-amazon.com/images/I/71omkIw0D2L._AC_SL1500_.jpg')
-utensil_set.photos.attach(io: utensil_set_image_1, filename: '71omkIw0D2L._AC_SL1500_.jpg', content_type: 'image/jpg')
-puts "socks photo attached: #{utensil_set.photos.attached?}"
+# utensil_set_image_1 = URI.open('https://images-na.ssl-images-amazon.com/images/I/71omkIw0D2L._AC_SL1500_.jpg')
+# utensil_set.photos.attach(io: utensil_set_image_1, filename: '71omkIw0D2L._AC_SL1500_.jpg', content_type: 'image/jpg')
+# puts "socks photo attached: #{utensil_set.photos.attached?}"
 aguaencaja = Product.create!(
   user: yanik,
   name: 'Agua en Caja Mejor',
@@ -42,18 +42,18 @@ aguaencaja = Product.create!(
   impact: '100% recyclable',
   origin: 'Spain'
   )
-aguaencaja1 = URI.open('https://static.wixstatic.com/media/be4e8c_d3249b76c4f2453a9900bbea285dfe2a~mv2_d_2666_2666_s_4_2.jpg')
-aguaencaja2 = URI.open('https://s03.s3c.es/imag/_v0/770x420/3/7/d/caja.jpg')
-aguaencaja3 = URI.open('https://images-na.ssl-images-amazon.com/images/I/81AUV97kf4L._AC_SL1500_.jpg')
-aguaencaja4 = URI.open('https://aguaencajacanarias.com/wp-content/uploads/2020/02/agua-en-caja-canarias-15-1.jpg')
-aguaencaja5 = URI.open('https://i.pinimg.com/originals/f5/7e/3e/f57e3eff182ec7e0950cd613ecb8f04d.png')
+# aguaencaja1 = URI.open('https://static.wixstatic.com/media/be4e8c_d3249b76c4f2453a9900bbea285dfe2a~mv2_d_2666_2666_s_4_2.jpg')
+# aguaencaja2 = URI.open('https://s03.s3c.es/imag/_v0/770x420/3/7/d/caja.jpg')
+# aguaencaja3 = URI.open('https://images-na.ssl-images-amazon.com/images/I/81AUV97kf4L._AC_SL1500_.jpg')
+# aguaencaja4 = URI.open('https://aguaencajacanarias.com/wp-content/uploads/2020/02/agua-en-caja-canarias-15-1.jpg')
+# aguaencaja5 = URI.open('https://i.pinimg.com/originals/f5/7e/3e/f57e3eff182ec7e0950cd613ecb8f04d.png')
 
-aguaencaja.photos.attach(io: aguaencaja1, filename: 'be4e8c_d3249b76c4f2453a9900bbea285dfe2a~mv2_d_2666_2666_s_4_2.jpg', content_type: 'image/jpg')
-aguaencaja.photos.attach(io: aguaencaja2, filename: 'caja.jpg', content_type: 'image/jpg')
-aguaencaja.photos.attach(io: aguaencaja3, filename: '81AUV97kf4L._AC_SL1500_.jpg', content_type: 'image/jpg')
-aguaencaja.photos.attach(io: aguaencaja4, filename: 'agua-en-caja-canarias-15-1.jpg', content_type: 'image/jpg')
-aguaencaja.photos.attach(io: aguaencaja5, filename: 'f57e3eff182ec7e0950cd613ecb8f04d.png', content_type: 'image/png')
-puts "Agua en caja photo attached: #{aguaencaja.photos.attached?}"
+# aguaencaja.photos.attach(io: aguaencaja1, filename: 'be4e8c_d3249b76c4f2453a9900bbea285dfe2a~mv2_d_2666_2666_s_4_2.jpg', content_type: 'image/jpg')
+# aguaencaja.photos.attach(io: aguaencaja2, filename: 'caja.jpg', content_type: 'image/jpg')
+# aguaencaja.photos.attach(io: aguaencaja3, filename: '81AUV97kf4L._AC_SL1500_.jpg', content_type: 'image/jpg')
+# aguaencaja.photos.attach(io: aguaencaja4, filename: 'agua-en-caja-canarias-15-1.jpg', content_type: 'image/jpg')
+# aguaencaja.photos.attach(io: aguaencaja5, filename: 'f57e3eff182ec7e0950cd613ecb8f04d.png', content_type: 'image/png')
+# puts "Agua en caja photo attached: #{aguaencaja.photos.attached?}"
 
 
 
@@ -65,25 +65,25 @@ toilet_paper = Product.create!(
   impact: '27,000 trees are cut down daily to make toilet paper. Reel is made from tree-free, 100per cent amboo paper. Zero plastic packaging, even the tape.',
   origin: 'USA'
   )
-toilet_paper_1 = URI.open('https://cdn.shopify.com/s/files/1/0035/9468/2435/t/32/assets/product-image-1_568x@2x.progressive.jpg')
-toilet_paper.photos.attach(io: toilet_paper_1, filename: 'product-image-1_568x@2x.progressive.jpg', content_type: 'image/jpg')
-puts "mat photo attached: #{toilet_paper.photos.attached?}"
+# toilet_paper_1 = URI.open('https://cdn.shopify.com/s/files/1/0035/9468/2435/t/32/assets/product-image-1_568x@2x.progressive.jpg')
+# toilet_paper.photos.attach(io: toilet_paper_1, filename: 'product-image-1_568x@2x.progressive.jpg', content_type: 'image/jpg')
+# puts "mat photo attached: #{toilet_paper.photos.attached?}"
 
-toilet_paper_2 = URI.open('https://cdn.shopify.com/s/files/1/0035/9468/2435/t/32/assets/product-image-2_568x@2x.progressive.jpg')
-toilet_paper.photos.attach(io: toilet_paper_2, filename: 'product-image-2_568x@2x.progressive.jpg', content_type: 'image/jpg')
-puts "toilet_paper photo attached: #{toilet_paper.photos.attached?}"
+# toilet_paper_2 = URI.open('https://cdn.shopify.com/s/files/1/0035/9468/2435/t/32/assets/product-image-2_568x@2x.progressive.jpg')
+# toilet_paper.photos.attach(io: toilet_paper_2, filename: 'product-image-2_568x@2x.progressive.jpg', content_type: 'image/jpg')
+# puts "toilet_paper photo attached: #{toilet_paper.photos.attached?}"
 
-toilet_paper_3 = URI.open('https://cdn.shopify.com/s/files/1/0035/9468/2435/t/32/assets/product-image-3_568x@2x.progressive.jpg')
-toilet_paper.photos.attach(io: toilet_paper_3, filename: 'product-image-3_568x@2x.progressive.jpg', content_type: 'image/jpg')
-puts "toilet_paper photo attached: #{toilet_paper.photos.attached?}"
+# toilet_paper_3 = URI.open('https://cdn.shopify.com/s/files/1/0035/9468/2435/t/32/assets/product-image-3_568x@2x.progressive.jpg')
+# toilet_paper.photos.attach(io: toilet_paper_3, filename: 'product-image-3_568x@2x.progressive.jpg', content_type: 'image/jpg')
+# puts "toilet_paper photo attached: #{toilet_paper.photos.attached?}"
 
-toilet_paper_4 = URI.open('https://cdn.shopify.com/s/files/1/0035/9468/2435/t/32/assets/product-image-4_568x@2x.progressive.jpg')
-toilet_paper.photos.attach(io: toilet_paper_4, filename: 'product-image-4_568x@2x.progressive.jpg', content_type: 'image/jpg')
-puts "toilet_paper photo attached: #{toilet_paper.photos.attached?}"
+# toilet_paper_4 = URI.open('https://cdn.shopify.com/s/files/1/0035/9468/2435/t/32/assets/product-image-4_568x@2x.progressive.jpg')
+# toilet_paper.photos.attach(io: toilet_paper_4, filename: 'product-image-4_568x@2x.progressive.jpg', content_type: 'image/jpg')
+# puts "toilet_paper photo attached: #{toilet_paper.photos.attached?}"
 
-toilet_paper_5 = URI.open('https://cdn.shopify.com/s/files/1/0035/9468/2435/files/reel-sustainable.jpg')
-toilet_paper.photos.attach(io: toilet_paper_5, filename: '1reel-sustainable.jpg', content_type: 'image/jpg')
-puts "toilet_paper photo attached: #{toilet_paper.photos.attached?}"
+# toilet_paper_5 = URI.open('https://cdn.shopify.com/s/files/1/0035/9468/2435/files/reel-sustainable.jpg')
+# toilet_paper.photos.attach(io: toilet_paper_5, filename: '1reel-sustainable.jpg', content_type: 'image/jpg')
+# puts "toilet_paper photo attached: #{toilet_paper.photos.attached?}"
 
 
 
@@ -96,26 +96,26 @@ mat = Product.create!(
 ',
   origin: 'Portugal'
   )
-mat_image_1 = URI.open('https://cdn.shopify.com/s/files/1/0338/7208/5131/products/e_e52f6025-21b6-4957-9975-2fe3c60c8aac_720x.png')
-mat.photos.attach(io: mat_image_1, filename: 'e_e52f6025-21b6-4957-9975-2fe3c60c8aac_720x.png', content_type: 'image/jpg')
-puts "mat photo attached: #{mat.photos.attached?}"
+# mat_image_1 = URI.open('https://cdn.shopify.com/s/files/1/0338/7208/5131/products/e_e52f6025-21b6-4957-9975-2fe3c60c8aac_720x.png')
+# mat.photos.attach(io: mat_image_1, filename: 'e_e52f6025-21b6-4957-9975-2fe3c60c8aac_720x.png', content_type: 'image/jpg')
+# puts "mat photo attached: #{mat.photos.attached?}"
 
-mat_image_2 = URI.open('https://cdn.shopify.com/s/files/1/0338/7208/5131/products/original_06e89766-d53d-4b60-9078-fa3e333b97f1_720x.png')
-mat.photos.attach(io: mat_image_2, filename: 'original_06e89766-d53d-4b60-9078-fa3e333b97f1_720x.png', content_type: 'image/jpg')
-puts "mat photo attached: #{mat.photos.attached?}"
+# mat_image_2 = URI.open('https://cdn.shopify.com/s/files/1/0338/7208/5131/products/original_06e89766-d53d-4b60-9078-fa3e333b97f1_720x.png')
+# mat.photos.attach(io: mat_image_2, filename: 'original_06e89766-d53d-4b60-9078-fa3e333b97f1_720x.png', content_type: 'image/jpg')
+# puts "mat photo attached: #{mat.photos.attached?}"
 
-mat_image_3 = URI.open('https://cdn.shopify.com/s/files/1/0338/7208/5131/products/IMG_2653edit3_720x.png')
-mat.photos.attach(io: mat_image_3, filename: 'products/IMG_2653edit3_720x.png', content_type: 'image/jpg')
-puts "mat photo attached: #{mat.photos.attached?}"
+# mat_image_3 = URI.open('https://cdn.shopify.com/s/files/1/0338/7208/5131/products/IMG_2653edit3_720x.png')
+# mat.photos.attach(io: mat_image_3, filename: 'products/IMG_2653edit3_720x.png', content_type: 'image/jpg')
+# puts "mat photo attached: #{mat.photos.attached?}"
 
-mat_image_4 = URI.open('https://cdn.shopify.com/s/files/1/0338/7208/5131/products/A60A97598c_c730f6f2-5a99-45d6-a323-c7e9e48bf92f_720x.jpg')
-mat.photos.attach(io: mat_image_4, filename: 'A60A97598c_c730f6f2-5a99-45d6-a323-c7e9e48bf92f_720x.jpg', content_type: 'image/jpg')
-puts "mat photo attached: #{mat.photos.attached?}"
+# mat_image_4 = URI.open('https://cdn.shopify.com/s/files/1/0338/7208/5131/products/A60A97598c_c730f6f2-5a99-45d6-a323-c7e9e48bf92f_720x.jpg')
+# mat.photos.attach(io: mat_image_4, filename: 'A60A97598c_c730f6f2-5a99-45d6-a323-c7e9e48bf92f_720x.jpg', content_type: 'image/jpg')
+# puts "mat photo attached: #{mat.photos.attached?}"
 
 
-mat_image_5 = URI.open('https://cdn.shopify.com/s/files/1/0338/7208/5131/products/1W9A9843ocd_6d00987d-744e-460c-85da-55e9e62a329f_720x.png')
-mat.photos.attach(io: mat_image_5, filename: '1W9A9843ocd_6d00987d-744e-460c-85da-55e9e62a329f_720x.png', content_type: 'image/png')
-puts "mat photo attached: #{mat.photos.attached?}"
+# mat_image_5 = URI.open('https://cdn.shopify.com/s/files/1/0338/7208/5131/products/1W9A9843ocd_6d00987d-744e-460c-85da-55e9e62a329f_720x.png')
+# mat.photos.attach(io: mat_image_5, filename: '1W9A9843ocd_6d00987d-744e-460c-85da-55e9e62a329f_720x.png', content_type: 'image/png')
+# puts "mat photo attached: #{mat.photos.attached?}"
 
 pants = Product.create!(
   user: yanik,
@@ -125,25 +125,25 @@ pants = Product.create!(
   impact: 'These yoga pants are sustainably produced under fair working conditions.',
   origin: 'Germany'
   )
-pants_image_1 = URI.open('https://yoganic.eu/wp-content/uploads/2016/08/yogabroek-ruim-heren-zwart-eco.jpg')
-pants.photos.attach(io: pants_image_1, filename: 'ogabroek-ruim-heren-zwart-eco.jpg', content_type: 'image/jpg')
-puts "pants photo attached: #{pants.photos.attached?}"
+# pants_image_1 = URI.open('https://yoganic.eu/wp-content/uploads/2016/08/yogabroek-ruim-heren-zwart-eco.jpg')
+# pants.photos.attach(io: pants_image_1, filename: 'ogabroek-ruim-heren-zwart-eco.jpg', content_type: 'image/jpg')
+# puts "pants photo attached: #{pants.photos.attached?}"
 
-pants_image_2 = URI.open('https://yoganic.eu/wp-content/uploads/2016/08/yogabroek-ruim-ecologisch-zwart-heren.jpg')
-pants.photos.attach(io: pants_image_2, filename: 'yogabroek-ruim-ecologisch-zwart-heren.jpg', content_type: 'image/jpg')
-puts "pants photo attached: #{pants.photos.attached?}"
+# pants_image_2 = URI.open('https://yoganic.eu/wp-content/uploads/2016/08/yogabroek-ruim-ecologisch-zwart-heren.jpg')
+# pants.photos.attach(io: pants_image_2, filename: 'yogabroek-ruim-ecologisch-zwart-heren.jpg', content_type: 'image/jpg')
+# puts "pants photo attached: #{pants.photos.attached?}"
 
-pants_image_3 = URI.open('https://yoganic.eu/wp-content/uploads/2016/08/yogabroek-ruim-heren-bio-zwart.jpg')
-pants.photos.attach(io: pants_image_3, filename: 'yogabroek-ruim-heren-bio-zwart.jpg', content_type: 'image/jpg')
-puts "pants photo attached: #{pants.photos.attached?}"
+# pants_image_3 = URI.open('https://yoganic.eu/wp-content/uploads/2016/08/yogabroek-ruim-heren-bio-zwart.jpg')
+# pants.photos.attach(io: pants_image_3, filename: 'yogabroek-ruim-heren-bio-zwart.jpg', content_type: 'image/jpg')
+# puts "pants photo attached: #{pants.photos.attached?}"
 
-pants_image_4 = URI.open('https://yoganic.eu/wp-content/uploads/2016/08/yogabroek-ruim-heren-zwart-eco.jpg')
-pants.photos.attach(io: pants_image_4, filename: 'ogabroek-ruim-heren-zwart-eco.jpg', content_type: 'image/jpg')
-puts "pants photo attached: #{pants.photos.attached?}"
+# pants_image_4 = URI.open('https://yoganic.eu/wp-content/uploads/2016/08/yogabroek-ruim-heren-zwart-eco.jpg')
+# pants.photos.attach(io: pants_image_4, filename: 'ogabroek-ruim-heren-zwart-eco.jpg', content_type: 'image/jpg')
+# puts "pants photo attached: #{pants.photos.attached?}"
 
-pants_image_5 = URI.open('https://yoganic.eu/wp-content/uploads/2016/08/yogabroek-ruim-ecologisch-zwart-heren.jpg')
-pants.photos.attach(io: pants_image_5, filename: 'yogabroek-ruim-ecologisch-zwart-heren.jpg', content_type: 'image/jpg')
-puts "pants photo attached: #{pants.photos.attached?}"
+# pants_image_5 = URI.open('https://yoganic.eu/wp-content/uploads/2016/08/yogabroek-ruim-ecologisch-zwart-heren.jpg')
+# pants.photos.attach(io: pants_image_5, filename: 'yogabroek-ruim-ecologisch-zwart-heren.jpg', content_type: 'image/jpg')
+# puts "pants photo attached: #{pants.photos.attached?}"
 
 
 socks = Product.create!(
@@ -155,15 +155,15 @@ socks = Product.create!(
   origin: 'Portugal'
   )
 
-socks_image_1 = URI.open('https://cdn.shopify.com/s/files/1/2470/6078/products/par-de-calcetines-minimalistas-largos-minimalism-brand-ecologicos-negros-verdesjpg.jpg?v=1592906298')
-socks.photos.attach(io: socks_image_1, filename: 'par-de-calcetines-minimalistas-largos-minimalism-brand-ecologicos-negros-verdesjpg.jpg?v=1592906298', content_type: 'image/jpg')
+# socks_image_1 = URI.open('https://cdn.shopify.com/s/files/1/2470/6078/products/par-de-calcetines-minimalistas-largos-minimalism-brand-ecologicos-negros-verdesjpg.jpg?v=1592906298')
+# socks.photos.attach(io: socks_image_1, filename: 'par-de-calcetines-minimalistas-largos-minimalism-brand-ecologicos-negros-verdesjpg.jpg?v=1592906298', content_type: 'image/jpg')
 
-socks_image_2 = URI.open('https://cdn.shopify.com/s/files/1/2470/6078/products/Socks-Sostenible-Minimalista-Organica-Minimalism-black.jpg?v=1592906298')
-socks.photos.attach(io: socks_image_2, filename: 'Socks-Sostenible-Minimalista-Organica-Minimalism-black.jpg?v=1592906298', content_type: 'image/jpg')
+# socks_image_2 = URI.open('https://cdn.shopify.com/s/files/1/2470/6078/products/Socks-Sostenible-Minimalista-Organica-Minimalism-black.jpg?v=1592906298')
+# socks.photos.attach(io: socks_image_2, filename: 'Socks-Sostenible-Minimalista-Organica-Minimalism-black.jpg?v=1592906298', content_type: 'image/jpg')
 
-socks_image_3 = URI.open('https://cdn.shopify.com/s/files/1/2470/6078/products/Socks-Sostenible-Minimalista-Organica-Minimalism-black-eco_900x.jpg?v=1592906311')
-socks.photos.attach(io: socks_image_3, filename: 'Socks-Sostenible-Minimalista-Organica-Minimalism-black-eco_900x.jpg?v=1592906311', content_type: 'image/jpg')
-puts "socks photo attached: #{socks.photos.attached?}"
+# socks_image_3 = URI.open('https://cdn.shopify.com/s/files/1/2470/6078/products/Socks-Sostenible-Minimalista-Organica-Minimalism-black-eco_900x.jpg?v=1592906311')
+# socks.photos.attach(io: socks_image_3, filename: 'Socks-Sostenible-Minimalista-Organica-Minimalism-black-eco_900x.jpg?v=1592906311', content_type: 'image/jpg')
+# puts "socks photo attached: #{socks.photos.attached?}"
 
 coffee_cup = Product.create!(
   user: ana,
@@ -174,29 +174,29 @@ coffee_cup = Product.create!(
   origin: 'Spain'
   )
 
-coffee_cup_image_1 = URI.open('https://www.onyalife.com/wp-content/uploads/Red-Coffee-Cup-New.jpg')
-coffee_cup.photos.attach(io: coffee_cup_image_1, filename: 'Red-Coffee-Cup-New.jpg', content_type: 'image/jpg')
-puts "socks photo attached: #{coffee_cup.photos.attached?}"
+# coffee_cup_image_1 = URI.open('https://www.onyalife.com/wp-content/uploads/Red-Coffee-Cup-New.jpg')
+# coffee_cup.photos.attach(io: coffee_cup_image_1, filename: 'Red-Coffee-Cup-New.jpg', content_type: 'image/jpg')
+# puts "socks photo attached: #{coffee_cup.photos.attached?}"
 
 
-coffee_cup_image_2 = URI.open('https://www.onyalife.com/wp-content/uploads/Black-Coffee-Cup-New.jpg')
-coffee_cup.photos.attach(io: coffee_cup_image_2, filename: 'Black-Coffee-Cup-New.jpg', content_type: 'image/jpg')
-puts "socks photo attached: #{coffee_cup.photos.attached?}"
+# coffee_cup_image_2 = URI.open('https://www.onyalife.com/wp-content/uploads/Black-Coffee-Cup-New.jpg')
+# coffee_cup.photos.attach(io: coffee_cup_image_2, filename: 'Black-Coffee-Cup-New.jpg', content_type: 'image/jpg')
+# puts "socks photo attached: #{coffee_cup.photos.attached?}"
 
 
-coffee_cup_image_3 = URI.open('https://www.onyalife.com/wp-content/uploads/Purple-Coffee-Cup-New.jpg')
-coffee_cup.photos.attach(io: coffee_cup_image_3, filename: 'Purple-Coffee-Cup-New.jpg', content_type: 'image/jpg')
-puts "socks photo attached: #{coffee_cup.photos.attached?}"
+# coffee_cup_image_3 = URI.open('https://www.onyalife.com/wp-content/uploads/Purple-Coffee-Cup-New.jpg')
+# coffee_cup.photos.attach(io: coffee_cup_image_3, filename: 'Purple-Coffee-Cup-New.jpg', content_type: 'image/jpg')
+# puts "socks photo attached: #{coffee_cup.photos.attached?}"
 
 
-coffee_cup_image_4 = URI.open('https://www.onyalife.com/wp-content/uploads/GreyBlue-NEW-Coffee-Cup-1.jpg')
-coffee_cup.photos.attach(io: coffee_cup_image_4, filename: 'GreyBlue-NEW-Coffee-Cup-1.jpg', content_type: 'image/jpg')
-puts "socks photo attached: #{coffee_cup.photos.attached?}"
+# coffee_cup_image_4 = URI.open('https://www.onyalife.com/wp-content/uploads/GreyBlue-NEW-Coffee-Cup-1.jpg')
+# coffee_cup.photos.attach(io: coffee_cup_image_4, filename: 'GreyBlue-NEW-Coffee-Cup-1.jpg', content_type: 'image/jpg')
+# puts "socks photo attached: #{coffee_cup.photos.attached?}"
 
 
-coffee_cup_image_5 = URI.open('https://www.onyalife.com/wp-content/uploads/Purple-Coffee-Cup-New.jpg')
-coffee_cup.photos.attach(io: coffee_cup_image_5, filename: 'Purple-Coffee-Cup-New.jpg', content_type: 'image/jpg')
-puts "socks photo attached: #{coffee_cup.photos.attached?}"
+# coffee_cup_image_5 = URI.open('https://www.onyalife.com/wp-content/uploads/Purple-Coffee-Cup-New.jpg')
+# coffee_cup.photos.attach(io: coffee_cup_image_5, filename: 'Purple-Coffee-Cup-New.jpg', content_type: 'image/jpg')
+# puts "socks photo attached: #{coffee_cup.photos.attached?}"
 
 women_t_shirt = Product.create!(
   user: ana,
@@ -207,17 +207,17 @@ women_t_shirt = Product.create!(
   origin: 'Portugal'
   )
 
-women_t_shirt_image_1 = URI.open('https://cdn.shopify.com/s/files/1/2470/6078/products/camiseta-gris-frontal-mujer-minimalism-brand_1080x.jpg?v=1595228539')
-women_t_shirt.photos.attach(io: women_t_shirt_image_1, filename: 'camiseta-gris-frontal-mujer-minimalism-brand_1080x.jpg?v=1595228539', content_type: 'image/jpg')
-puts "socks photo attached: #{women_t_shirt.photos.attached?}"
+# women_t_shirt_image_1 = URI.open('https://cdn.shopify.com/s/files/1/2470/6078/products/camiseta-gris-frontal-mujer-minimalism-brand_1080x.jpg?v=1595228539')
+# women_t_shirt.photos.attach(io: women_t_shirt_image_1, filename: 'camiseta-gris-frontal-mujer-minimalism-brand_1080x.jpg?v=1595228539', content_type: 'image/jpg')
+# puts "socks photo attached: #{women_t_shirt.photos.attached?}"
 
-women_t_shirt_image_2 = URI.open('https://cdn.shopify.com/s/files/1/2470/6078/products/camiseta-negra-minimalism-brand-sostenible-organica-mujer-fruta_900x.jpg?v=1595929823')
-women_t_shirt.photos.attach(io: women_t_shirt_image_2, filename: 'camiseta-negra-minimalism-brand-sostenible-organica-mujer-fruta_900x.jpg?v=1595929823', content_type: 'image/jpg')
-puts "socks photo attached: #{women_t_shirt.photos.attached?}"
+# women_t_shirt_image_2 = URI.open('https://cdn.shopify.com/s/files/1/2470/6078/products/camiseta-negra-minimalism-brand-sostenible-organica-mujer-fruta_900x.jpg?v=1595929823')
+# women_t_shirt.photos.attach(io: women_t_shirt_image_2, filename: 'camiseta-negra-minimalism-brand-sostenible-organica-mujer-fruta_900x.jpg?v=1595929823', content_type: 'image/jpg')
+# puts "socks photo attached: #{women_t_shirt.photos.attached?}"
 
-women_t_shirt_image_3 = URI.open('https://cdn.shopify.com/s/files/1/2470/6078/products/Camiseta-blanca-minimalista-ropa-mujer-organica-sostenible_900x.jpg?v=1595228539')
-women_t_shirt.photos.attach(io: women_t_shirt_image_3, filename: 'Camiseta-blanca-minimalista-ropa-mujer-organica-sostenible_900x.jpg?v=1595228539', content_type: 'image/jpg')
-puts "socks photo attached: #{women_t_shirt.photos.attached?}"
+# women_t_shirt_image_3 = URI.open('https://cdn.shopify.com/s/files/1/2470/6078/products/Camiseta-blanca-minimalista-ropa-mujer-organica-sostenible_900x.jpg?v=1595228539')
+# women_t_shirt.photos.attach(io: women_t_shirt_image_3, filename: 'Camiseta-blanca-minimalista-ropa-mujer-organica-sostenible_900x.jpg?v=1595228539', content_type: 'image/jpg')
+# puts "socks photo attached: #{women_t_shirt.photos.attached?}"
 
 forks = Product.create!(
   user: pablito,
@@ -227,9 +227,9 @@ forks = Product.create!(
   impact: 'No oil has been used in the extraction of the raw materirals of this product, fabrication or transportations.',
   origin: 'Nambia'
   )
-forks_image = URI.open('https://images-na.ssl-images-amazon.com/images/I/81gkVenBQ0L._AC_SL1500_.jpg')
-forks.photos.attach(io: forks_image, filename: '81gkVenBQ0L._AC_SL1500_.jpg', content_type: 'image/jpg')
-puts "forks photo attached: #{forks.photos.attached?}"
+# forks_image = URI.open('https://images-na.ssl-images-amazon.com/images/I/81gkVenBQ0L._AC_SL1500_.jpg')
+# forks.photos.attach(io: forks_image, filename: '81gkVenBQ0L._AC_SL1500_.jpg', content_type: 'image/jpg')
+# puts "forks photo attached: #{forks.photos.attached?}"
 
 glasses = Product.create!(
   user: martin,
@@ -239,11 +239,11 @@ glasses = Product.create!(
   impact: 'A trendy yet simple way to reduce the flow of plastic from our economy to the enviroment.',
   origin: 'Bilbao'
   )
-glasses_image_1 = URI.open('https://www.theinertia.com/wp-content/uploads/2017/02/norton-point.jpg')
-glasses.photos.attach(io: glasses_image_1, filename: 'norton-point.jpg', content_type: 'image/jpg')
-glasses_image_2 = URI.open('https://inhabitat.com/wp-content/blogs.dir/1/files/2019/03/9Feb2019_PreciousPlastic_-30main-600x480.jpg')
-glasses.photos.attach(io: glasses_image_2, filename: '9Feb2019_PreciousPlastic_-30main-600x480.jpg', content_type: 'image/jpg')
-puts "glasses photo attached: #{glasses.photos.attached?}"
+# glasses_image_1 = URI.open('https://www.theinertia.com/wp-content/uploads/2017/02/norton-point.jpg')
+# glasses.photos.attach(io: glasses_image_1, filename: 'norton-point.jpg', content_type: 'image/jpg')
+# glasses_image_2 = URI.open('https://inhabitat.com/wp-content/blogs.dir/1/files/2019/03/9Feb2019_PreciousPlastic_-30main-600x480.jpg')
+# glasses.photos.attach(io: glasses_image_2, filename: '9Feb2019_PreciousPlastic_-30main-600x480.jpg', content_type: 'image/jpg')
+# puts "glasses photo attached: #{glasses.photos.attached?}"
 
 bag = Product.create!(
   user: trini,
@@ -253,9 +253,9 @@ bag = Product.create!(
   impact: 'It does not polute as the traditional bags made with plastic',
   origin: ' Quebec '
   )
-bag_image = URI.open('https://malababa.imgix.net/media/catalog/product/1/9/19vb073granada_y.jpg')
-bag.photos.attach(io: bag_image, filename: '19vb073granada_y.jpg', content_type: 'image/jpg')
-puts "bag photo attached: #{bag.photos.attached?}"
+# bag_image = URI.open('https://malababa.imgix.net/media/catalog/product/1/9/19vb073granada_y.jpg')
+# bag.photos.attach(io: bag_image, filename: '19vb073granada_y.jpg', content_type: 'image/jpg')
+# puts "bag photo attached: #{bag.photos.attached?}"
 
 sandal = Product.create!(
   user: ana,
@@ -265,9 +265,9 @@ sandal = Product.create!(
   impact: 'It reduces the amout of plastic in the sea and in the food!',
   origin: 'East Africa'
   )
-sandal_image = URI.open('https://assets.website-files.com/602e0329d354ce64f9277c43/60a6f7d10456ff5fc3e9f708_sustainable-sandals.jpg')
-sandal.photos.attach(io: sandal_image, filename: '60a6f7d10456ff5fc3e9f708_sustainable-sandals.jpg', content_type: 'image/jpg')
-puts "Sandal photo attached: #{sandal.photos.attached?}"
+# sandal_image = URI.open('https://assets.website-files.com/602e0329d354ce64f9277c43/60a6f7d10456ff5fc3e9f708_sustainable-sandals.jpg')
+# sandal.photos.attach(io: sandal_image, filename: '60a6f7d10456ff5fc3e9f708_sustainable-sandals.jpg', content_type: 'image/jpg')
+# puts "Sandal photo attached: #{sandal.photos.attached?}"
 
 cup = Product.create!(
   user: yanik,
@@ -278,9 +278,9 @@ cup = Product.create!(
   origin: 'Egypt'
   )
 
-cup_image = URI.open('https://yaffa-cdn.s3.amazonaws.com/yaffadsp/images/dmImage/SourceImage/planet-saver-cup.jpg')
-cup.photos.attach(io: cup_image, filename: 'planet-saver-cup.jpg', content_type: 'image/jpg')
-puts "Cup photo attached: #{cup.photos.attached?}"
+# cup_image = URI.open('https://yaffa-cdn.s3.amazonaws.com/yaffadsp/images/dmImage/SourceImage/planet-saver-cup.jpg')
+# cup.photos.attach(io: cup_image, filename: 'planet-saver-cup.jpg', content_type: 'image/jpg')
+# puts "Cup photo attached: #{cup.photos.attached?}"
 
 straw = Product.create!(
   user: martin,
@@ -291,12 +291,12 @@ straw = Product.create!(
   origin: 'Vietnam'
   )
 
-straw_image_1 = URI.open('https://i.pinimg.com/736x/6f/9a/8b/6f9a8bded893274c17ff9e2e07b69db6.jpg')
-straw_image_2 = URI.open('http://sc04.alicdn.com/kf/Hc5516015b0124a8c8b648f07b87df139Y.jpg')
-straw.photos.attach(io: straw_image_1, filename: '6f9a8bded893274c17ff9e2e07b69db6.jpg', content_type: 'image/jpg')
-straw.photos.attach(io: straw_image_2, filename: 'Hc5516015b0124a8c8b648f07b87df139Y.jpg', content_type: 'image/jpg')
+# straw_image_1 = URI.open('https://i.pinimg.com/736x/6f/9a/8b/6f9a8bded893274c17ff9e2e07b69db6.jpg')
+# straw_image_2 = URI.open('http://sc04.alicdn.com/kf/Hc5516015b0124a8c8b648f07b87df139Y.jpg')
+# straw.photos.attach(io: straw_image_1, filename: '6f9a8bded893274c17ff9e2e07b69db6.jpg', content_type: 'image/jpg')
+# straw.photos.attach(io: straw_image_2, filename: 'Hc5516015b0124a8c8b648f07b87df139Y.jpg', content_type: 'image/jpg')
 
-puts "Straw photo attached: #{straw.photos.attached?}"
+# puts "Straw photo attached: #{straw.photos.attached?}"
 
 # trini seeds
 
@@ -309,18 +309,18 @@ swab = Product.create!(
   origin: 'Barcelona'
   )
 
-swab_image_1 = URI.open('https://cdn.shopify.com/s/files/1/0063/5181/4708/products/bamboo-qtip-cotton-swab_1024x1024.jpg')
-swab_image_2 = URI.open('https://cdn.shopify.com/s/files/1/0063/5181/4708/products/plastic-free-bamboo-cotton-swabs-sustainable-beauty_1024x1024.jpg')
-swab_image_3 = URI.open('https://cdn.shopify.com/s/files/1/0063/5181/4708/products/plastic-free-bamboo-cotton-swabs-sustainable-bath-beauty_1024x1024.jpg')
-swab_image_4 = URI.open('https://cdn.shopify.com/s/files/1/0063/5181/4708/products/plastic-free-bamboo-cotton-swabs-sustainable-bath-beauty-2_1024x1024.jpg')
-swab_image_5 = URI.open('https://cdn.shopify.com/s/files/1/0063/5181/4708/products/plastic-free-bamboo-cotton-swabs-sustainable-bath_1024x1024.jpg')
-swab.photos.attach(io: swab_image_1, filename: 'bamboo-qtip-cotton-swab_1024x1024.jpg', content_type: 'image/jpg')
-swab.photos.attach(io: swab_image_2, filename: 'plastic-free-bamboo-cotton-swabs-sustainable-beauty_1024x1024.jpg', content_type: 'image/jpg')
-swab.photos.attach(io: swab_image_3, filename: 'plastic-free-bamboo-cotton-swabs-sustainable-bath-beauty_1024x1024.jpg', content_type: 'image/jpg')
-swab.photos.attach(io: swab_image_4, filename: 'plastic-free-bamboo-cotton-swabs-sustainable-bath-beauty-2_1024x1024.jpg', content_type: 'image/jpg')
-swab.photos.attach(io: swab_image_5, filename: 'plastic-free-bamboo-cotton-swabs-sustainable-bath_1024x1024.jpg', content_type: 'image/jpg')
+# swab_image_1 = URI.open('https://cdn.shopify.com/s/files/1/0063/5181/4708/products/bamboo-qtip-cotton-swab_1024x1024.jpg')
+# swab_image_2 = URI.open('https://cdn.shopify.com/s/files/1/0063/5181/4708/products/plastic-free-bamboo-cotton-swabs-sustainable-beauty_1024x1024.jpg')
+# swab_image_3 = URI.open('https://cdn.shopify.com/s/files/1/0063/5181/4708/products/plastic-free-bamboo-cotton-swabs-sustainable-bath-beauty_1024x1024.jpg')
+# swab_image_4 = URI.open('https://cdn.shopify.com/s/files/1/0063/5181/4708/products/plastic-free-bamboo-cotton-swabs-sustainable-bath-beauty-2_1024x1024.jpg')
+# swab_image_5 = URI.open('https://cdn.shopify.com/s/files/1/0063/5181/4708/products/plastic-free-bamboo-cotton-swabs-sustainable-bath_1024x1024.jpg')
+# swab.photos.attach(io: swab_image_1, filename: 'bamboo-qtip-cotton-swab_1024x1024.jpg', content_type: 'image/jpg')
+# swab.photos.attach(io: swab_image_2, filename: 'plastic-free-bamboo-cotton-swabs-sustainable-beauty_1024x1024.jpg', content_type: 'image/jpg')
+# swab.photos.attach(io: swab_image_3, filename: 'plastic-free-bamboo-cotton-swabs-sustainable-bath-beauty_1024x1024.jpg', content_type: 'image/jpg')
+# swab.photos.attach(io: swab_image_4, filename: 'plastic-free-bamboo-cotton-swabs-sustainable-bath-beauty-2_1024x1024.jpg', content_type: 'image/jpg')
+# swab.photos.attach(io: swab_image_5, filename: 'plastic-free-bamboo-cotton-swabs-sustainable-bath_1024x1024.jpg', content_type: 'image/jpg')
 
-puts "Swabs photo attached: #{swab.photos.attached?}"
+# puts "Swabs photo attached: #{swab.photos.attached?}"
 
 toothbrush = Product.create!(
   user: trini,
@@ -331,18 +331,18 @@ toothbrush = Product.create!(
   origin: 'Indonesia'
   )
 
-toothbrush_image_1 = URI.open('https://cdn.shopify.com/s/files/1/0141/6190/3673/products/goldrickproduct2020-195_900x.jpg')
-toothbrush_image_2 = URI.open('https://cdn.shopify.com/s/files/1/0141/6190/3673/products/ToothbrushBamboo_900x.jpg')
-toothbrush_image_3 = URI.open('https://cdn.shopify.com/s/files/1/0141/6190/3673/products/Toothbrush_1080x.png')
-toothbrush_image_4 = URI.open('https://cdn.shopify.com/s/files/1/0141/6190/3673/products/Toothbrushpackaging_7c481e09-cd8e-40fd-a1d8-9aedca0cc0d1_900x.jpg')
-toothbrush_image_5 = URI.open('https://cdn.shopify.com/s/files/1/0141/6190/3673/products/goldrickproduct2020-184_e3a39b1d-8e91-4172-b8f9-27cee99e2f83_900x.jpg')
-toothbrush.photos.attach(io: toothbrush_image_1, filename: 'goldrickproduct2020-195_900x.jpg', content_type: 'image/jpg')
-toothbrush.photos.attach(io: toothbrush_image_2, filename: 'ToothbrushBamboo_900x.jpg', content_type: 'image/jpg')
-toothbrush.photos.attach(io: toothbrush_image_3, filename: 'Toothbrush_1080x.png', content_type: 'image/jpg')
-toothbrush.photos.attach(io: toothbrush_image_4, filename: 'Toothbrushpackaging_7c481e09-cd8e-40fd-a1d8-9aedca0cc0d1_900x.jpg', content_type: 'image/jpg')
-toothbrush.photos.attach(io: toothbrush_image_5, filename: 'goldrickproduct2020-184_e3a39b1d-8e91-4172-b8f9-27cee99e2f83_900x.jpg', content_type: 'image/jpg')
+# toothbrush_image_1 = URI.open('https://cdn.shopify.com/s/files/1/0141/6190/3673/products/goldrickproduct2020-195_900x.jpg')
+# toothbrush_image_2 = URI.open('https://cdn.shopify.com/s/files/1/0141/6190/3673/products/ToothbrushBamboo_900x.jpg')
+# toothbrush_image_3 = URI.open('https://cdn.shopify.com/s/files/1/0141/6190/3673/products/Toothbrush_1080x.png')
+# toothbrush_image_4 = URI.open('https://cdn.shopify.com/s/files/1/0141/6190/3673/products/Toothbrushpackaging_7c481e09-cd8e-40fd-a1d8-9aedca0cc0d1_900x.jpg')
+# toothbrush_image_5 = URI.open('https://cdn.shopify.com/s/files/1/0141/6190/3673/products/goldrickproduct2020-184_e3a39b1d-8e91-4172-b8f9-27cee99e2f83_900x.jpg')
+# toothbrush.photos.attach(io: toothbrush_image_1, filename: 'goldrickproduct2020-195_900x.jpg', content_type: 'image/jpg')
+# toothbrush.photos.attach(io: toothbrush_image_2, filename: 'ToothbrushBamboo_900x.jpg', content_type: 'image/jpg')
+# toothbrush.photos.attach(io: toothbrush_image_3, filename: 'Toothbrush_1080x.png', content_type: 'image/jpg')
+# toothbrush.photos.attach(io: toothbrush_image_4, filename: 'Toothbrushpackaging_7c481e09-cd8e-40fd-a1d8-9aedca0cc0d1_900x.jpg', content_type: 'image/jpg')
+# toothbrush.photos.attach(io: toothbrush_image_5, filename: 'goldrickproduct2020-184_e3a39b1d-8e91-4172-b8f9-27cee99e2f83_900x.jpg', content_type: 'image/jpg')
 
-puts "Toothbrush photo attached: #{toothbrush.photos.attached?}"
+# puts "Toothbrush photo attached: #{toothbrush.photos.attached?}"
 
 dishwash = Product.create!(
   user: trini,
@@ -353,18 +353,18 @@ dishwash = Product.create!(
   origin: 'Barcelona'
   )
 
-dishwash_image_1 = URI.open('https://cdn.shopify.com/s/files/1/2239/2927/products/dishblockandAgaveandwhiteteakdishbrushnotoxlife017_1024x1024@2x.jpg')
-dishwash_image_2 = URI.open('https://cdn.shopify.com/s/files/1/2239/2927/products/dish-block-suds_1024x1024@2x.jpg')
-dishwash_image_3 = URI.open('https://cdn.shopify.com/s/files/1/2239/2927/products/dishblockandAgaveandwhiteteakdishbrushnotoxlife019_1024x1024@2x.jpg')
-dishwash_image_4 = URI.open('https://cdn.shopify.com/s/files/1/2239/2927/products/DishBlock_1024x1024@2x.jpg')
-dishwash_image_5 = URI.open('https://cdn.shopify.com/s/files/1/2239/2927/products/no-tox-life-dish-washing-block612_1024x1024@2x.jpg')
-dishwash.photos.attach(io: dishwash_image_1, filename: 'dishblockandAgaveandwhiteteakdishbrushnotoxlife017_1024x1024@2x.jpg', content_type: 'image/jpg')
-dishwash.photos.attach(io: dishwash_image_2, filename: 'products/dish-block-suds_1024x1024@2x.jpg', content_type: 'image/jpg')
-dishwash.photos.attach(io: dishwash_image_3, filename: 'dishblockandAgaveandwhiteteakdishbrushnotoxlife019_1024x1024@2x.jpg', content_type: 'image/jpg')
-dishwash.photos.attach(io: dishwash_image_4, filename: 'DishBlock_1024x1024@2x.jpg', content_type: 'image/jpg')
-dishwash.photos.attach(io: dishwash_image_5, filename: 'no-tox-life-dish-washing-block612_1024x1024@2x.jpg', content_type: 'image/jpg')
+# dishwash_image_1 = URI.open('https://cdn.shopify.com/s/files/1/2239/2927/products/dishblockandAgaveandwhiteteakdishbrushnotoxlife017_1024x1024@2x.jpg')
+# dishwash_image_2 = URI.open('https://cdn.shopify.com/s/files/1/2239/2927/products/dish-block-suds_1024x1024@2x.jpg')
+# dishwash_image_3 = URI.open('https://cdn.shopify.com/s/files/1/2239/2927/products/dishblockandAgaveandwhiteteakdishbrushnotoxlife019_1024x1024@2x.jpg')
+# dishwash_image_4 = URI.open('https://cdn.shopify.com/s/files/1/2239/2927/products/DishBlock_1024x1024@2x.jpg')
+# dishwash_image_5 = URI.open('https://cdn.shopify.com/s/files/1/2239/2927/products/no-tox-life-dish-washing-block612_1024x1024@2x.jpg')
+# dishwash.photos.attach(io: dishwash_image_1, filename: 'dishblockandAgaveandwhiteteakdishbrushnotoxlife017_1024x1024@2x.jpg', content_type: 'image/jpg')
+# dishwash.photos.attach(io: dishwash_image_2, filename: 'products/dish-block-suds_1024x1024@2x.jpg', content_type: 'image/jpg')
+# dishwash.photos.attach(io: dishwash_image_3, filename: 'dishblockandAgaveandwhiteteakdishbrushnotoxlife019_1024x1024@2x.jpg', content_type: 'image/jpg')
+# dishwash.photos.attach(io: dishwash_image_4, filename: 'DishBlock_1024x1024@2x.jpg', content_type: 'image/jpg')
+# dishwash.photos.attach(io: dishwash_image_5, filename: 'no-tox-life-dish-washing-block612_1024x1024@2x.jpg', content_type: 'image/jpg')
 
-puts "Dishwash photo attached: #{dishwash.photos.attached?}"
+# puts "Dishwash photo attached: #{dishwash.photos.attached?}"
 
 sunglasses = Product.create!(
   user: trini,
@@ -375,18 +375,18 @@ sunglasses = Product.create!(
   origin: 'Switzerland'
   )
 
-sunglasses_image_1 = URI.open('https://cdn.shopify.com/s/files/1/1238/0884/products/Foto05_3c9ae39e-66db-4e76-9a3e-0386f908fd59_1080x.jpg')
-sunglasses_image_2 = URI.open('https://cdn.shopify.com/s/files/1/1238/0884/products/Foto01_47237d0f-598d-4d79-91da-cdc7f76f7b46_1080x.jpg')
-sunglasses_image_3 = URI.open('https://cdn.shopify.com/s/files/1/1238/0884/products/Foto01_1_3b9e3239-c37e-407b-ba2f-a0ff76d239d6_1080x.jpg')
-sunglasses_image_4 = URI.open('https://cdn.shopify.com/s/files/1/1238/0884/products/Foto05_1@2x.jpg')
-sunglasses_image_5 = URI.open('https://cdn.shopify.com/s/files/1/1238/0884/products/Foto13_7a7f6d76-7208-44e4-a223-64326ce5ec8c_1080x.jpg')
-sunglasses.photos.attach(io: sunglasses_image_1, filename: 'Foto05_3c9ae39e-66db-4e76-9a3e-0386f908fd59_1080x.jpg', content_type: 'image/jpg')
-sunglasses.photos.attach(io: sunglasses_image_2, filename: 'Foto01_47237d0f-598d-4d79-91da-cdc7f76f7b46_1080x.jpg', content_type: 'image/jpg')
-sunglasses.photos.attach(io: sunglasses_image_3, filename: 'Foto01_1_3b9e3239-c37e-407b-ba2f-a0ff76d239d6_1080x.jpg', content_type: 'image/jpg')
-sunglasses.photos.attach(io: sunglasses_image_4, filename: 'Foto05_1@2x.jpg', content_type: 'image/jpg')
-sunglasses.photos.attach(io: sunglasses_image_5, filename: 'Foto13_7a7f6d76-7208-44e4-a223-64326ce5ec8c_1080x.jpg', content_type: 'image/jpg')
+# sunglasses_image_1 = URI.open('https://cdn.shopify.com/s/files/1/1238/0884/products/Foto05_3c9ae39e-66db-4e76-9a3e-0386f908fd59_1080x.jpg')
+# sunglasses_image_2 = URI.open('https://cdn.shopify.com/s/files/1/1238/0884/products/Foto01_47237d0f-598d-4d79-91da-cdc7f76f7b46_1080x.jpg')
+# sunglasses_image_3 = URI.open('https://cdn.shopify.com/s/files/1/1238/0884/products/Foto01_1_3b9e3239-c37e-407b-ba2f-a0ff76d239d6_1080x.jpg')
+# sunglasses_image_4 = URI.open('https://cdn.shopify.com/s/files/1/1238/0884/products/Foto05_1@2x.jpg')
+# sunglasses_image_5 = URI.open('https://cdn.shopify.com/s/files/1/1238/0884/products/Foto13_7a7f6d76-7208-44e4-a223-64326ce5ec8c_1080x.jpg')
+# sunglasses.photos.attach(io: sunglasses_image_1, filename: 'Foto05_3c9ae39e-66db-4e76-9a3e-0386f908fd59_1080x.jpg', content_type: 'image/jpg')
+# sunglasses.photos.attach(io: sunglasses_image_2, filename: 'Foto01_47237d0f-598d-4d79-91da-cdc7f76f7b46_1080x.jpg', content_type: 'image/jpg')
+# sunglasses.photos.attach(io: sunglasses_image_3, filename: 'Foto01_1_3b9e3239-c37e-407b-ba2f-a0ff76d239d6_1080x.jpg', content_type: 'image/jpg')
+# sunglasses.photos.attach(io: sunglasses_image_4, filename: 'Foto05_1@2x.jpg', content_type: 'image/jpg')
+# sunglasses.photos.attach(io: sunglasses_image_5, filename: 'Foto13_7a7f6d76-7208-44e4-a223-64326ce5ec8c_1080x.jpg', content_type: 'image/jpg')
 
-puts "Sunglasses photo attached: #{sunglasses.photos.attached?}"
+# puts "Sunglasses photo attached: #{sunglasses.photos.attached?}"
 
 handbag = Product.create!(
   user: trini,
@@ -397,18 +397,18 @@ handbag = Product.create!(
   origin: 'Argentina'
   )
 
-handbag_image_1 = URI.open('https://cdn.shopify.com/s/files/1/2415/6235/products/giphy_2_9929b9e9-b9a8-4994-8706-5e67b681f70e_1080x.gif')
-handbag_image_2 = URI.open('https://cdn.shopify.com/s/files/1/2415/6235/products/Mother_Erth_Top_Handle_Handbag_Product_Photo_1080x.jpg')
-handbag_image_3 = URI.open('https://cdn.shopify.com/s/files/1/2415/6235/products/Artisans_Choice_Handbag_6_1080x.jpg')
-handbag_image_4 = URI.open('https://cdn.shopify.com/s/files/1/2415/6235/products/Mother_Erth_Handbag_Product_Photo_1080x.jpg')
-handbag_image_5 = URI.open('https://cdn.shopify.com/s/files/1/2415/6235/products/Handbag_-_Product_Shot_Template_2_158017fa-32e1-40e5-8065-6846acd7bc5c_1080x.png')
-handbag.photos.attach(io: handbag_image_1, filename: 'giphy_2_9929b9e9-b9a8-4994-8706-5e67b681f70e_1080x.gif', content_type: 'image/gif')
-handbag.photos.attach(io: handbag_image_2, filename: 'Mother_Erth_Top_Handle_Handbag_Product_Photo_1080x.jpg', content_type: 'image/jpg')
-handbag.photos.attach(io: handbag_image_3, filename: 'Artisans_Choice_Handbag_6_1080x.jpg', content_type: 'image/jpg')
-handbag.photos.attach(io: handbag_image_4, filename: 'Mother_Erth_Handbag_Product_Photo_1080x.jpg', content_type: 'image/jpg')
-handbag.photos.attach(io: handbag_image_5, filename: 'Handbag_-_Product_Shot_Template_2_158017fa-32e1-40e5-8065-6846acd7bc5c_1080x.png', content_type: 'image/jpg')
+# handbag_image_1 = URI.open('https://cdn.shopify.com/s/files/1/2415/6235/products/giphy_2_9929b9e9-b9a8-4994-8706-5e67b681f70e_1080x.gif')
+# handbag_image_2 = URI.open('https://cdn.shopify.com/s/files/1/2415/6235/products/Mother_Erth_Top_Handle_Handbag_Product_Photo_1080x.jpg')
+# handbag_image_3 = URI.open('https://cdn.shopify.com/s/files/1/2415/6235/products/Artisans_Choice_Handbag_6_1080x.jpg')
+# handbag_image_4 = URI.open('https://cdn.shopify.com/s/files/1/2415/6235/products/Mother_Erth_Handbag_Product_Photo_1080x.jpg')
+# handbag_image_5 = URI.open('https://cdn.shopify.com/s/files/1/2415/6235/products/Handbag_-_Product_Shot_Template_2_158017fa-32e1-40e5-8065-6846acd7bc5c_1080x.png')
+# handbag.photos.attach(io: handbag_image_1, filename: 'giphy_2_9929b9e9-b9a8-4994-8706-5e67b681f70e_1080x.gif', content_type: 'image/gif')
+# handbag.photos.attach(io: handbag_image_2, filename: 'Mother_Erth_Top_Handle_Handbag_Product_Photo_1080x.jpg', content_type: 'image/jpg')
+# handbag.photos.attach(io: handbag_image_3, filename: 'Artisans_Choice_Handbag_6_1080x.jpg', content_type: 'image/jpg')
+# handbag.photos.attach(io: handbag_image_4, filename: 'Mother_Erth_Handbag_Product_Photo_1080x.jpg', content_type: 'image/jpg')
+# handbag.photos.attach(io: handbag_image_5, filename: 'Handbag_-_Product_Shot_Template_2_158017fa-32e1-40e5-8065-6846acd7bc5c_1080x.png', content_type: 'image/jpg')
 
-puts "handbag photo attached: #{handbag.photos.attached?}"
+# puts "handbag photo attached: #{handbag.photos.attached?}"
 
 lunchwraps = Product.create!(
   user: trini,
@@ -419,18 +419,18 @@ lunchwraps = Product.create!(
   origin: 'China'
   )
 
-lunchwraps_image_1 = URI.open('https://www.onyalife.com/wp-content/uploads/Apple-Lunch-Wrap.jpg')
-lunchwraps_image_2 = URI.open('https://www.onyalife.com/wp-content/uploads/Teal-Lunch-Wrap.jpg')
-lunchwraps_image_3 = URI.open('https://www.onyalife.com/wp-content/uploads/Chilli-Lunch-Wrap.jpg')
-lunchwraps_image_4 = URI.open('https://www.onyalife.com/wp-content/uploads/Pink-Lunch-Wrap.jpg')
-lunchwraps_image_5 = URI.open('https://www.onyalife.com/wp-content/uploads/Purple-Lunch-Wrap.jpg')
-lunchwraps.photos.attach(io: lunchwraps_image_1, filename: 'Apple-Lunch-Wrap.jpg', content_type: 'image/gif')
-lunchwraps.photos.attach(io: lunchwraps_image_2, filename: 'Teal-Lunch-Wrap.jpg', content_type: 'image/jpg')
-lunchwraps.photos.attach(io: lunchwraps_image_3, filename: 'Chilli-Lunch-Wrap.jpg', content_type: 'image/jpg')
-lunchwraps.photos.attach(io: lunchwraps_image_4, filename: 'Pink-Lunch-Wrap.jpg', content_type: 'image/jpg')
-lunchwraps.photos.attach(io: lunchwraps_image_5, filename: 'Purple-Lunch-Wrap.jpg', content_type: 'image/jpg')
+# lunchwraps_image_1 = URI.open('https://www.onyalife.com/wp-content/uploads/Apple-Lunch-Wrap.jpg')
+# lunchwraps_image_2 = URI.open('https://www.onyalife.com/wp-content/uploads/Teal-Lunch-Wrap.jpg')
+# lunchwraps_image_3 = URI.open('https://www.onyalife.com/wp-content/uploads/Chilli-Lunch-Wrap.jpg')
+# lunchwraps_image_4 = URI.open('https://www.onyalife.com/wp-content/uploads/Pink-Lunch-Wrap.jpg')
+# lunchwraps_image_5 = URI.open('https://www.onyalife.com/wp-content/uploads/Purple-Lunch-Wrap.jpg')
+# lunchwraps.photos.attach(io: lunchwraps_image_1, filename: 'Apple-Lunch-Wrap.jpg', content_type: 'image/gif')
+# lunchwraps.photos.attach(io: lunchwraps_image_2, filename: 'Teal-Lunch-Wrap.jpg', content_type: 'image/jpg')
+# lunchwraps.photos.attach(io: lunchwraps_image_3, filename: 'Chilli-Lunch-Wrap.jpg', content_type: 'image/jpg')
+# lunchwraps.photos.attach(io: lunchwraps_image_4, filename: 'Pink-Lunch-Wrap.jpg', content_type: 'image/jpg')
+# lunchwraps.photos.attach(io: lunchwraps_image_5, filename: 'Purple-Lunch-Wrap.jpg', content_type: 'image/jpg')
 
-puts "lunchwraps photo attached: #{lunchwraps.photos.attached?}"
+# puts "lunchwraps photo attached: #{lunchwraps.photos.attached?}"
 
 toiletpaper = Product.create!(
   user: trini,
@@ -441,18 +441,18 @@ toiletpaper = Product.create!(
   origin: 'Portugal'
   )
 
-toiletpaper_image_1 = URI.open('https://cdn.shopify.com/s/files/1/0286/5401/0428/products/REC_TP_1_3x_5a767835-dd0f-4454-ad31-87ef531e0f9a.jpg')
-toiletpaper_image_2 = URI.open('https://cdn.shopify.com/s/files/1/0286/5401/0428/products/REC_TP_3_3x_20e014c3-d954-4e32-916f-bbafd83d00e9.jpg')
-toiletpaper_image_3 = URI.open('https://cdn.shopify.com/s/files/1/0286/5401/0428/products/REC_TP_1_3x_6db98e05-dad2-4297-9bf4-98fa7b861d39.jpg')
-toiletpaper_image_4 = URI.open('https://cdn.shopify.com/s/files/1/0286/5401/0428/products/REC_TP_4_3x_e990b1c9-f7b3-4135-972d-0e52f9edb609.jpg')
-toiletpaper_image_5 = URI.open('https://cdn.shopify.com/s/files/1/0286/5401/0428/products/REC_TP_5_3x_b1aba114-014e-4093-b6b6-81c89691643a.jpg')
-toiletpaper.photos.attach(io: toiletpaper_image_1, filename: 'REC_TP_1_3x_5a767835-dd0f-4454-ad31-87ef531e0f9a.jpg', content_type: 'image/gif')
-toiletpaper.photos.attach(io: toiletpaper_image_2, filename: 'REC_TP_3_3x_20e014c3-d954-4e32-916f-bbafd83d00e9.jpg', content_type: 'image/jpg')
-toiletpaper.photos.attach(io: toiletpaper_image_3, filename: 'REC_TP_1_3x_6db98e05-dad2-4297-9bf4-98fa7b861d39.jpg', content_type: 'image/jpg')
-toiletpaper.photos.attach(io: toiletpaper_image_4, filename: 'REC_TP_4_3x_e990b1c9-f7b3-4135-972d-0e52f9edb609.jpg', content_type: 'image/jpg')
-toiletpaper.photos.attach(io: toiletpaper_image_5, filename: 'REC_TP_5_3x_b1aba114-014e-4093-b6b6-81c89691643a.jpg', content_type: 'image/jpg')
+# toiletpaper_image_1 = URI.open('https://cdn.shopify.com/s/files/1/0286/5401/0428/products/REC_TP_1_3x_5a767835-dd0f-4454-ad31-87ef531e0f9a.jpg')
+# toiletpaper_image_2 = URI.open('https://cdn.shopify.com/s/files/1/0286/5401/0428/products/REC_TP_3_3x_20e014c3-d954-4e32-916f-bbafd83d00e9.jpg')
+# toiletpaper_image_3 = URI.open('https://cdn.shopify.com/s/files/1/0286/5401/0428/products/REC_TP_1_3x_6db98e05-dad2-4297-9bf4-98fa7b861d39.jpg')
+# toiletpaper_image_4 = URI.open('https://cdn.shopify.com/s/files/1/0286/5401/0428/products/REC_TP_4_3x_e990b1c9-f7b3-4135-972d-0e52f9edb609.jpg')
+# toiletpaper_image_5 = URI.open('https://cdn.shopify.com/s/files/1/0286/5401/0428/products/REC_TP_5_3x_b1aba114-014e-4093-b6b6-81c89691643a.jpg')
+# toiletpaper.photos.attach(io: toiletpaper_image_1, filename: 'REC_TP_1_3x_5a767835-dd0f-4454-ad31-87ef531e0f9a.jpg', content_type: 'image/gif')
+# toiletpaper.photos.attach(io: toiletpaper_image_2, filename: 'REC_TP_3_3x_20e014c3-d954-4e32-916f-bbafd83d00e9.jpg', content_type: 'image/jpg')
+# toiletpaper.photos.attach(io: toiletpaper_image_3, filename: 'REC_TP_1_3x_6db98e05-dad2-4297-9bf4-98fa7b861d39.jpg', content_type: 'image/jpg')
+# toiletpaper.photos.attach(io: toiletpaper_image_4, filename: 'REC_TP_4_3x_e990b1c9-f7b3-4135-972d-0e52f9edb609.jpg', content_type: 'image/jpg')
+# toiletpaper.photos.attach(io: toiletpaper_image_5, filename: 'REC_TP_5_3x_b1aba114-014e-4093-b6b6-81c89691643a.jpg', content_type: 'image/jpg')
 
-puts "toiletpaper photo attached: #{toiletpaper.photos.attached?}"
+# puts "toiletpaper photo attached: #{toiletpaper.photos.attached?}"
 
 
 dumptruck = Product.create!(
@@ -464,18 +464,18 @@ dumptruck = Product.create!(
   origin: 'USA'
   )
 
-dumptruck_image_1 = URI.open('https://cdn.shopify.com/s/files/1/0149/8336/4708/products/Dump_Truck_GIF_1024x1024@2x.gif')
-dumptruck_image_2 = URI.open('https://cdn.shopify.com/s/files/1/0149/8336/4708/products/DumpTruck_RePack_20190416_1024x1024@2x.jpg')
-dumptruck_image_3 = URI.open('https://cdn.shopify.com/s/files/1/0149/8336/4708/products/150630_dump_truck_034_110x110@2x.jpg')
-dumptruck_image_4 = URI.open('https://cdn.shopify.com/s/files/1/0149/8336/4708/products/PinkDump_119_110x110@2x.jpg')
-dumptruck_image_5 = URI.open('https://cdn.shopify.com/s/files/1/0149/8336/4708/products/1712305_greentoys_blue_dump_truck_005_110x110@2x.jpg')
-dumptruck.photos.attach(io: dumptruck_image_1, filename: 'Dump_Truck_GIF_1024x1024@2x.gif', content_type: 'image/gif')
-dumptruck.photos.attach(io: dumptruck_image_2, filename: 'DumpTruck_RePack_20190416_1024x1024@2x.jpg', content_type: 'image/jpg')
-dumptruck.photos.attach(io: dumptruck_image_3, filename: '150630_dump_truck_034_110x110@2x.jpg', content_type: 'image/jpg')
-dumptruck.photos.attach(io: dumptruck_image_4, filename: 'PinkDump_119_110x110@2x.jpg', content_type: 'image/jpg')
-dumptruck.photos.attach(io: dumptruck_image_5, filename: '1712305_greentoys_blue_dump_truck_005_110x110@2x.jpg', content_type: 'image/jpg')
+# dumptruck_image_1 = URI.open('https://cdn.shopify.com/s/files/1/0149/8336/4708/products/Dump_Truck_GIF_1024x1024@2x.gif')
+# dumptruck_image_2 = URI.open('https://cdn.shopify.com/s/files/1/0149/8336/4708/products/DumpTruck_RePack_20190416_1024x1024@2x.jpg')
+# dumptruck_image_3 = URI.open('https://cdn.shopify.com/s/files/1/0149/8336/4708/products/150630_dump_truck_034_110x110@2x.jpg')
+# dumptruck_image_4 = URI.open('https://cdn.shopify.com/s/files/1/0149/8336/4708/products/PinkDump_119_110x110@2x.jpg')
+# dumptruck_image_5 = URI.open('https://cdn.shopify.com/s/files/1/0149/8336/4708/products/1712305_greentoys_blue_dump_truck_005_110x110@2x.jpg')
+# dumptruck.photos.attach(io: dumptruck_image_1, filename: 'Dump_Truck_GIF_1024x1024@2x.gif', content_type: 'image/gif')
+# dumptruck.photos.attach(io: dumptruck_image_2, filename: 'DumpTruck_RePack_20190416_1024x1024@2x.jpg', content_type: 'image/jpg')
+# dumptruck.photos.attach(io: dumptruck_image_3, filename: '150630_dump_truck_034_110x110@2x.jpg', content_type: 'image/jpg')
+# dumptruck.photos.attach(io: dumptruck_image_4, filename: 'PinkDump_119_110x110@2x.jpg', content_type: 'image/jpg')
+# dumptruck.photos.attach(io: dumptruck_image_5, filename: '1712305_greentoys_blue_dump_truck_005_110x110@2x.jpg', content_type: 'image/jpg')
 
-puts "dumptruck photo attached: #{dumptruck.photos.attached?}"
+# puts "dumptruck photo attached: #{dumptruck.photos.attached?}"
 
 tablelinen = Product.create!(
   user: trini,
@@ -486,18 +486,18 @@ tablelinen = Product.create!(
   origin: 'India'
   )
 
-tablelinen_image_1 = URI.open('https://www.vivaterra.com/medias/sys_master/images/images/h5b/h5d/10928863871006/V3459-VTSU18-AF3121.jpg')
-tablelinen_image_2 = URI.open('https://www.vivaterra.com/medias/sys_master/images/images/he3/h6e/10928864231454/V3492-VTSU18-CH3250.jpg')
-tablelinen_image_3 = URI.open('https://www.vivaterra.com/medias/sys_master/images/images/h73/h1e/10928863477790/V3459-VTSU18-CH3252.jpg')
-tablelinen_image_4 = URI.open('https://www.vivaterra.com/medias/sys_master/images/images/hf0/hac/10928863543326/V3460-VTSU18-CH3280-DT1.jpg')
-tablelinen_image_5 = URI.open('https://www.vivaterra.com/medias/sys_master/images/images/h49/h86/10928864264222/V3460-VTSU18-CH3199.jpg')
-tablelinen.photos.attach(io: tablelinen_image_1, filename: 'V3459-VTSU18-AF3121.jpg', content_type: 'image/gif')
-tablelinen.photos.attach(io: tablelinen_image_2, filename: 'V3492-VTSU18-CH3250.jpg', content_type: 'image/jpg')
-tablelinen.photos.attach(io: tablelinen_image_3, filename: 'V3459-VTSU18-CH3252.jpg', content_type: 'image/jpg')
-tablelinen.photos.attach(io: tablelinen_image_4, filename: 'V3460-VTSU18-CH3280-DT1.jpg', content_type: 'image/jpg')
-tablelinen.photos.attach(io: tablelinen_image_5, filename: 'V3460-VTSU18-CH3199.jpg', content_type: 'image/jpg')
+# tablelinen_image_1 = URI.open('https://www.vivaterra.com/medias/sys_master/images/images/h5b/h5d/10928863871006/V3459-VTSU18-AF3121.jpg')
+# tablelinen_image_2 = URI.open('https://www.vivaterra.com/medias/sys_master/images/images/he3/h6e/10928864231454/V3492-VTSU18-CH3250.jpg')
+# tablelinen_image_3 = URI.open('https://www.vivaterra.com/medias/sys_master/images/images/h73/h1e/10928863477790/V3459-VTSU18-CH3252.jpg')
+# tablelinen_image_4 = URI.open('https://www.vivaterra.com/medias/sys_master/images/images/hf0/hac/10928863543326/V3460-VTSU18-CH3280-DT1.jpg')
+# tablelinen_image_5 = URI.open('https://www.vivaterra.com/medias/sys_master/images/images/h49/h86/10928864264222/V3460-VTSU18-CH3199.jpg')
+# tablelinen.photos.attach(io: tablelinen_image_1, filename: 'V3459-VTSU18-AF3121.jpg', content_type: 'image/gif')
+# tablelinen.photos.attach(io: tablelinen_image_2, filename: 'V3492-VTSU18-CH3250.jpg', content_type: 'image/jpg')
+# tablelinen.photos.attach(io: tablelinen_image_3, filename: 'V3459-VTSU18-CH3252.jpg', content_type: 'image/jpg')
+# tablelinen.photos.attach(io: tablelinen_image_4, filename: 'V3460-VTSU18-CH3280-DT1.jpg', content_type: 'image/jpg')
+# tablelinen.photos.attach(io: tablelinen_image_5, filename: 'V3460-VTSU18-CH3199.jpg', content_type: 'image/jpg')
 
-puts "tablelinen photo attached: #{tablelinen.photos.attached?}"
+# puts "tablelinen photo attached: #{tablelinen.photos.attached?}"
 
 utensil_set = Listing.create!(
   stock: 12000,
@@ -663,47 +663,47 @@ straw_sale = Listing.create!(
   product: straw
   )
 
-coffee_cup = Discount.create!(
-  quantity: 3500,
-  price: 1,
-  listing: coffee_cup,
-  )
+# coffee_cup = Discount.create!(
+#   quantity: 3500,
+#   price: 1,
+#   listing: coffee_cup,
+#   )
 
-bag_discount = Discount.create!(
-  quantity: 4000,
-  price: 15,
-  listing: bag_sale,
-  )
+# bag_discount = Discount.create!(
+#   quantity: 4000,
+#   price: 15,
+#   listing: bag_sale,
+#   )
 
-utensil_set  = Discount.create!(
-  quantity: 2550,
-  price: 12,
-  listing: utensil_set,
-  )
+# utensil_set  = Discount.create!(
+#   quantity: 2550,
+#   price: 12,
+#   listing: utensil_set,
+#   )
 
-sandal_discount = Discount.create!(
-  quantity: 4000,
-  price: 7,
-  listing: sandal_sale,
-  )
+# sandal_discount = Discount.create!(
+#   quantity: 4000,
+#   price: 7,
+#   listing: sandal_sale,
+#   )
 
-straw_discount = Discount.create!(
-  quantity: 3500,
-  price: 0.85,
-  listing: straw_sale,
-  )
+# straw_discount = Discount.create!(
+#   quantity: 3500,
+#   price: 0.85,
+#   listing: straw_sale,
+#   )
 
-cup_discount_1 = Discount.create!(
-  quantity: 4000,
-  price: 0.09,
-  listing: cup_sale,
-  )
+# cup_discount_1 = Discount.create!(
+#   quantity: 4000,
+#   price: 0.09,
+#   listing: cup_sale,
+#   )
 
-cup_discount_2 = Discount.create!(
-  quantity: 8000,
-  price: 0.065,
-  listing: cup_sale,
-  )
+# cup_discount_2 = Discount.create!(
+#   quantity: 8000,
+#   price: 0.065,
+#   listing: cup_sale,
+#   )
 
 bag_purchase = Purchase.create!(
   user: pablito,
